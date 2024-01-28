@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SECAO 08/E01_OO/E01_OO.iml" filepath="$PROJECT_DIR$/SECAO 08/E01_OO/E01_OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 09/E01_OO/E01_OO1.iml" filepath="$PROJECT_DIR$/SECAO 09/E01_OO/E01_OO1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 08/E02_OO/E02_OO.iml" filepath="$PROJECT_DIR$/SECAO 08/E02_OO/E02_OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 09/E02_OO/E02_OO1.iml" filepath="$PROJECT_DIR$/SECAO 09/E02_OO/E02_OO1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 08/E03_OO/E03_OO.iml" filepath="$PROJECT_DIR$/SECAO 08/E03_OO/E03_OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 08/E04_OO/E04_OO.iml" filepath="$PROJECT_DIR$/SECAO 08/E04_OO/E04_OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO 08/E05_OO/E05_OO.iml" filepath="$PROJECT_DIR$/SECAO 08/E05_OO/E05_OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Avancado.iml" filepath="$PROJECT_DIR$/.idea/Java_Avancado.iml" />
+    </modules>
+  </component>
+</project>
