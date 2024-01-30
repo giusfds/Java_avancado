@@ -16,12 +16,12 @@ public class Program {
 
         List<Employee> list = new ArrayList<>();
 
-        // PART 1 - READING DATA:
+
 
         System.out.print("How many employees will be registered? ");
         int n = sc.nextInt();
 
-        for (int i=1; i<=n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println();
             System.out.println("Employee #" + i + ": ");
 
@@ -40,7 +40,7 @@ public class Program {
             list.add(new Employee(id, name, salary));
         }
 
-        // PART 2 - UPDATING SALARY OF GIVEN EMPLOYEE:
+
 
         System.out.println();
         System.out.print("Enter the employee id that will have salary increase: ");
@@ -48,14 +48,13 @@ public class Program {
         Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
         if (emp == null) {
             System.out.println("This id does not exist!");
-        }
-        else {
+        } else {
             System.out.print("Enter the percentage: ");
             double percentage = sc.nextDouble();
             emp.increaseSalary(percentage);
         }
 
-        // PART 3 - LISTING EMPLOYEES:
+
 
         System.out.println();
         System.out.println("List of employees:");
